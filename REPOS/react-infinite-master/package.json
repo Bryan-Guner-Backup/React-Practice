@@ -90,7 +90,7 @@
     "husky": "0.14.3",
     "jest-cli": "20.0.4",
     "lint-staged": "4.0.2",
-    "moment": "^2.10.6",
+    "moment": "^2.29.1",
     "react-test-renderer": "16.2.0",
     "uglifyify": "3.0.1",
     "vinyl-buffer": "^1.0.0",
