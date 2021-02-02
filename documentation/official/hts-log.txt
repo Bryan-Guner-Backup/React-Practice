@@ -1,0 +1,52 @@
+HTTrack3.49-2 launched on Tue, 02 Feb 2021 15:40:55 at https://create-react-app.dev/
+(httrack -%e2 https://create-react-app.dev/ )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:41:30	Warning: 	Moved Permanently for https://bh4d9od16a-dsn.algolia.net/robots.txt
+15:41:30	Warning: 	File has moved from https://bh4d9od16a-dsn.algolia.net/robots.txt to https://algolia.net/1/404
+15:41:30	Warning: 	Moved Permanently for https://bh4d9od16a-dsn.algolia.net/
+15:41:30	Warning: 	File has moved from https://bh4d9od16a-dsn.algolia.net/ to https://algolia.net/1/404
+15:41:32	Warning: 	Moved Permanently for create-react-app.dev/robots.txt
+15:41:32	Warning: 	Redirected link is identical because of 'URL Hack' option: create-react-app.dev/robots.txt and https://create-react-app.dev/robots.txt
+15:41:32	Warning: 	Warning moved treated for create-react-app.dev/robots.txt (real one is https://create-react-app.dev/robots.txt)
+15:41:32	Warning: 	Moved Permanently for create-react-app.dev/docs/getting-started/
+15:41:32	Warning: 	Redirected link is identical because of 'URL Hack' option: create-react-app.dev/docs/getting-started/ and https://create-react-app.dev/docs/getting-started/
+15:41:32	Warning: 	File has moved from create-react-app.dev/docs/getting-started/ to https://create-react-app.dev/docs/getting-started/
+15:41:33	Warning: 	Note: due to https://reactjs.org remote robots.txt rules, links beginning with these path will be forbidden: /version/ (see in the options to disable this)
+15:42:02	Error: 	Exit requested by shell or user
+15:42:02	Warning: 	unexpected incomplete type with 200 code at https://tr.reactjs.org/community/support.html
+15:42:02	Warning: 	File not added due to mirror cancel: https://tr.reactjs.org/community/support.html
+15:42:03	Warning: 	File not added due to mirror cancel: https://github.com/robots.txt
+15:42:04	Warning: 	File not added due to mirror cancel: https://camo.githubusercontent.com/robots.txt
+15:42:04	Warning: 	Link https://create-react-app.dev/cdn-cgi/l/email-protection not scanned (follow robots meta tag)
+15:42:05	Warning: 	File not added due to mirror cancel: https://stackoverflow.com/robots.txt
+15:42:05	Error: 	"Forbidden" (403) at link https://stackoverflow.com/questions/tagged/create-react-app (from https://create-react-app.dev/)
+15:42:06	Warning: 	File not added due to mirror cancel: https://twitter.com/robots.txt
+15:42:06	Error: 	"Bad Request" (400) at link https://twitter.com/reactjs (from https://create-react-app.dev/)
+15:42:06	Warning: 	File not added due to mirror cancel: https://www.contributor-covenant.org/robots.txt
+15:42:07	Warning: 	Warning: store application/octet-stream without scan: reactjs.org/search.svg
+15:42:07	Warning: 	File not added due to mirror cancel: https://www.google-analytics.com/robots.txt
+15:42:07	Warning: 	Moved Permanently for https://www.google-analytics.com/
+15:42:07	Warning: 	File has moved from https://www.google-analytics.com/ to https://www.google.com/analytics/
+15:42:07	Warning: 	File not added due to mirror cancel: https://ar.reactjs.org/robots.txt
+15:42:08	Warning: 	File not added due to mirror cancel: https://az.reactjs.org/robots.txt
+15:42:08	Warning: 	File not added due to mirror cancel: https://es.reactjs.org/robots.txt
+15:42:09	Warning: 	File not added due to mirror cancel: https://fr.reactjs.org/robots.txt
+15:42:10	Warning: 	File not added due to mirror cancel: https://hu.reactjs.org/robots.txt
+15:42:11	Warning: 	File not added due to mirror cancel: https://it.reactjs.org/robots.txt
+15:42:11	Warning: 	File not added due to mirror cancel: https://ja.reactjs.org/robots.txt
+15:42:12	Warning: 	File not added due to mirror cancel: https://ko.reactjs.org/robots.txt
+15:42:13	Warning: 	File not added due to mirror cancel: https://mn.reactjs.org/robots.txt
+15:42:14	Warning: 	File not added due to mirror cancel: https://pl.reactjs.org/robots.txt
+15:42:14	Warning: 	File not added due to mirror cancel: https://pt-br.reactjs.org/robots.txt
+15:42:15	Warning: 	File not added due to mirror cancel: https://ru.reactjs.org/robots.txt
+15:42:16	Warning: 	File not added due to mirror cancel: https://tr.reactjs.org/robots.txt
+15:42:16	Warning: 	File not added due to mirror cancel: https://tr.reactjs.org/community/support.html
+15:42:16	Error: 	"mirror stopped by user" (-1) at link https://tr.reactjs.org/community/support.html (from https://reactjs.org/community/support.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 21 seconds : 69 links scanned, 40 files written (2930573 bytes overall) [898392 bytes received at 11091 bytes/sec], 2799746 bytes transferred using HTTP compression in 35 files, ratio 24%, 1.5 requests per connection
+(4 errors, 37 warnings, 0 messages)

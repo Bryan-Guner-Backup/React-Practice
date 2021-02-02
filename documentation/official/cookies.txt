@@ -1,0 +1,12 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+github.com	TRUE	/	FALSE	1999999999	_gh_sess	YjvuxuhrQDga4jgOCBIYtWmFadGZYWtsfJlpI2K6HxKwa20jpK3YdvrxygzSG7uMMqnaaRl3ujTpPPPyMxAtqIG0MAzMaJzjoDtyKbSnw4XLHV9ErbcK5VIx1Lmbm7gLF1dIEMc%2BTnd4q%2B7edpi184DqKnsffBP%2BREOT2Q3k3P%2B3to%2FcZDD24Nsdpd91tWGRuaxr3vAedXc%2Fnxdov%2BsmWnPk5ZYDFiuG1Bqau0bwtMyiatIKaZ4OVrs1UepjYML0nvduNGEAs7KW82pX6Fc%2FpQ%3D%3D--tHGEurnMXah5hRoW--hXsCaNByDpFpnVmoaySLRQ%3D%3D
+github.com	TRUE	/	FALSE	1999999999	_octo	GH1.1.2040420371.1612298474
+github.com	TRUE	/	FALSE	1999999999	logged_in	no
+github.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+.twitter.com	TRUE	/	FALSE	1999999999	personalization_id	v1_+O+P7Jw6KyiT2CAQ8KlOFg=="
+.twitter.com	TRUE	/	FALSE	1999999999	guest_id	v1%3A161229848440269477
+twitter.com	TRUE	/	FALSE	1999999999	SameSite	None
+.create-react-app.dev	TRUE	/	FALSE	1999999999	__cfduid	d7295a5b24da4d9500cb743ec4676e5791612298487
+create-react-app.dev	TRUE	/	FALSE	1999999999	SameSite	Lax
+
