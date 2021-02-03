@@ -1,4 +1,7 @@
-<!-- <script src="https://gist.github.com/ollytheninja/8498790.js"></script> -->
+<link href="style.css" rel="stylesheet"></link>
+
+
+
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@sukka/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/inscrybmde@1.11.6/dist/inscrybmde.min.css">
 <script src="https://cdn.jsdelivr.net/npm/inscrybmde@1.11.6/dist/inscrybmde.min.js"></script>
