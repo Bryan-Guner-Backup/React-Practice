@@ -2,75 +2,26 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/styles/default.min.css">
-  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.min.js"></script>
-  <!-- and it's easy to individually load additional languages -->
-  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/languages/go.min.js"></script>
-  <script async src="./mark.js"></script>
-  <script async src="./readme.js"></script>
-  <script>
-    // Get ToC div
-    toc = document.getElementById( "ToC" );
-
-    //Add a header
-    tocHeader = document.createElement( "h2" );
-    tocHeader.innerText = "Table of contents";
-    toc.appendChild( tocHeader );
-
-    // Create a list for the ToC entries
-    tocList = document.createElement( "ul" );
-
-    // Get the h1 tags - ToC entries
-    headers = document.getElementsByTagName( "h1" );
-
-    // For each h1
-    for ( i = 0; i < headers
-      .length; i++ ) { // Create an id name="h" +i; headers[i].id=name; // a list item for the entry
-      tocListItem = document.createElement( "li" ); // a link for the h1 tocEntry=document.createElement("a");
-      tocEntry.setAttribute( "href", "#" + name );
-      tocEntry.innerText = headers[ i ].innerText;
-      tocListItem.appendChild( tocEntry );
-      tocList.appendChild( tocListItem );
-    }
-    toc.appendChild( tocList );
-  </script>
-  <link rel="stylesheet" href="/path/to/styles/default.css">
-  <script src="/path/to/highlight.min.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-  <title>README</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+ <link rel="stylesheet" href="./toc.css">
+ <link rel="stylesheet" href="./readme.css">
+  <link rel="stylesheet" href="./boot.css">
   <link rel="stylesheet"
-    href="file:///c:\Users\bryan\.vscode\extensions\shd101wyy.markdown-preview-enhanced-0.5.16\node_modules\@shd101wyy\mume\dependencies\katex\katex.min.css">
+    href="https://raw.githubusercontent.com/bgoonz/styling-templates/master/mixu-bootstrap/assets/css/bootstrap.css">
+
+<script async src="./toc.js"></script>
 
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/styles/default.min.css">
-  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.5.0/build/highlight.min.js"></script>
-  <link rel="stylesheet" href="./readme.css>
+<meta http-equiv="Content-Type" content="text/html">
+<meta name="Author" content="Bryan Guner">
 
-
-
-  <!-- <script async defer src=" https://gist.github.com/ollytheninja/8498790.js">
-  </script> -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@sukka/markdown.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/inscrybmde@1.11.6/dist/inscrybmde.min.css">
-  <script async defer src="https://cdn.jsdelivr.net/npm/inscrybmde@1.11.6/dist/inscrybmde.min.js"></script>
-  <script async defer src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
-    integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg=="
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css"
-    integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg=="
-    crossorigin="anonymous">
+<title> directory </title>
 
 
 </head>
 
-<body for="html-export">
+<body>
+    <h5>Automatic Table of Contents</h5>
+    <div id="ToC" class="my_class"> </div>
   <div class="mume markdown-preview  ">
 
     <div class="markdown-body">
@@ -222,9 +173,7 @@
       <p>Speaking in terms of my mental model: I imagine the functions as boxes within boxes, and each smaller box can
         see the information of the outer box, or parent, but the big box cannot see the smaller one&apos;s information.
         That&apos;s as simple and accurate an explanation of closures as I can make.</p>
-      <p><img src="https://obedparla.com/static/96f403cd585425c1057214447165bbbe/7efee/data-flow.jpg"
-          alt="Visual representation of closures and the sharing of information between functions in a mental model, from a box view and a tree view">
-      </p>
+   
       <p>&quot;Each function can only access its own</p>
       <p><img src="https://obedparla.com/static/96f403cd585425c1057214447165bbbe/01d85/data-flow.jpg"
           alt="(information and the parent&apos;s&quot;)"></p>
@@ -1998,8 +1947,6 @@
     </div>
     
   </div>
-  <div class="md-sidebar-toc"></div>
-  <a id="sidebar-toc-btn">&#x2261;</a>
 
 
 
@@ -2008,17 +1955,8 @@
 
 
 
-  <script>
-    var sidebarTOCBtn = document.getElementById( 'sidebar-toc-btn' )
-    sidebarTOCBtn.addEventListener( 'click', function ( event ) {
-      event.stopPropagation()
-      if ( document.body.hasAttribute( 'html-show-sidebar-toc' ) ) {
-        document.body.removeAttribute( 'html-show-sidebar-toc' )
-      } else {
-        document.body.setAttribute( 'html-show-sidebar-toc', true )
-      }
-    } );
-  </script>
+
+  
 
 
 </body>

@@ -139,6 +139,8 @@
 }
 
 body {
+  max-width: max-content;
+  margin:auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: var(--font-family-body);
