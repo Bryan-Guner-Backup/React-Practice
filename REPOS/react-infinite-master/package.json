@@ -88,7 +88,7 @@
     "gulp-uglify": "^1.0.1",
     "gulp-webserver": "^0.9.1",
     "husky": "0.14.3",
-    "jest-cli": "20.0.4",
+    "jest-cli": "24.3.0",
     "lint-staged": "4.0.2",
     "moment": "^2.29.1",
     "react-test-renderer": "16.2.0",
