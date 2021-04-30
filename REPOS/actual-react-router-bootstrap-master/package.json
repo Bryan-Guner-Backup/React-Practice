@@ -63,7 +63,7 @@
     "karma-webpack": "^1.7.0",
     "less": "^2.6.1",
     "less-loader": "^2.2.3",
-    "lodash": "^3.10.1",
+    "lodash": "^4.17.19",
     "lolex": "^1.4.0",
     "mocha": "^2.4.5",
     "mt-changelog": "^0.6.2",
