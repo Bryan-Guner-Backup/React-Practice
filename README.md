@@ -1,23 +1,8 @@
-<link href="style.css" rel="stylesheet"></link>
 
-
-
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@sukka/markdown.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/inscrybmde@1.11.6/dist/inscrybmde.min.css">
-<script src="https://cdn.jsdelivr.net/npm/inscrybmde@1.11.6/dist/inscrybmde.min.js"></script>
-<script src="https://cdn.jsdelivr.net/highlight.js/latest/highlight.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/highlight.js/latest/styles/github.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css" integrity="sha512-Oy18vBnbSJkXTndr2n6lDMO5NN31UljR8e/ICzVPrGpSud4Gkckb8yUpqhKuUNoE+o9gAb4O/rAxxw1ojyUVzg==" crossorigin="anonymous" />
-<div class="markdown-body">
-  <h1># A journey through my experiences learning React.js and the tools I discover along the way!</h1>
-  
-  <script>
-   var inscrybmde = new InscrybMDE(); 
-</script>
   
   
-[](#react-mental-models)React Mental Models
--------------------------------------------
+# React Mental Models
+
 
 React helps us build complex, interactive UIs more easily than ever before. It also encourages us to write code in a certain way, guiding us to create apps that are simpler to navigate and understand.
 
