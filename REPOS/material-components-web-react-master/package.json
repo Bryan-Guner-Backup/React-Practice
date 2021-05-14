@@ -92,7 +92,7 @@
     "@material/textfield": "^2.3.1",
     "@material/typography": "^1.0.0",
     "@types/chai": "^4.1.7",
-    "@types/classnames": "^2.2.6",
+    "@types/classnames": "2.3.0",
     "@types/enzyme": "3.1.15",
     "@types/enzyme-adapter-react-16": "^1.0.3",
     "@types/google-cloud__storage": "^1.7.2",
