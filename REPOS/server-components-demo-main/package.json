@@ -24,7 +24,7 @@
     "react-dom": "0.0.0-experimental-3310209d0",
     "react-error-boundary": "^3.1.0",
     "react-fetch": "0.0.0-experimental-3310209d0",
-    "react-fs": "0.0.0-experimental-3310209d0",
+    "react-fs": "0.0.0",
     "react-pg": "0.0.0-experimental-3310209d0",
     "react-server-dom-webpack": "0.0.0-experimental-3310209d0",
     "resolve": "1.12.0",
