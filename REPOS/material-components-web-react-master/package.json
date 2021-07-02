@@ -105,7 +105,7 @@
     "@types/react-is": "~16.5.0",
     "@types/react-router-dom": "^4.3.1",
     "@types/uuid": "^3.4.4",
-    "@types/webpack-env": "^1.13.9",
+    "@types/webpack-env": "1.16.2",
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
     "autoprefixer": "^8.5.1",
