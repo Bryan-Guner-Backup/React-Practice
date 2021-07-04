@@ -20,7 +20,7 @@
     "react": "^16.4.2"
   },
   "dependencies": {
-    "@material/form-field": "^0.41.0",
+    "@material/form-field": "^0.44.0",
     "@material/radio": "^1.1.0",
     "@material/react-ripple": "^0.15.0",
     "classnames": "^2.2.6"
