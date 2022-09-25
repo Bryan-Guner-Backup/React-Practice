@@ -68,7 +68,7 @@
     "immer": "7.0.9",
     "is-root": "2.1.0",
     "loader-utils": "2.0.0",
-    "open": "^7.0.2",
+    "open": "7.4.2",
     "pkg-up": "3.1.0",
     "prompts": "2.4.0",
     "react-error-overlay": "^6.0.8",
@@ -78,7 +78,7 @@
     "text-table": "0.2.0"
   },
   "devDependencies": {
-    "cross-env": "^7.0.2",
+    "cross-env": "7.0.3",
     "jest": "26.6.0"
   },
   "scripts": {
